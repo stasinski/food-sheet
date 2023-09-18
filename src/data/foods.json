@@ -1,0 +1,7 @@
+{
+    "foods":[
+        {"name":"kakao","fat":11,"carb":13,"protein":24,"kcal":310},
+        {"name":"mleko 2%","fat":2,"carb":4.8,"protein":3.2,"kcal":50},
+        {"name":"płatki owsiane","fat":7,"carb":54,"protein":14,"kcal":360}
+    ]
+}
