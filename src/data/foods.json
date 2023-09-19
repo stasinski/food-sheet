@@ -1,7 +1,174 @@
 {
-    "foods":[
-        {"name":"kakao","fat":11,"carb":13,"protein":24,"kcal":310},
-        {"name":"mleko 2%","fat":2,"carb":4.8,"protein":3.2,"kcal":50},
-        {"name":"płatki owsiane","fat":7,"carb":54,"protein":14,"kcal":360}
+    "foods": [
+        {
+            "id": "1",
+            "name": "kakao",
+            "amount": 100,
+            "amountType":"gram",
+            "carb": 13,
+            "fat": 11,
+            "kcal": 310,
+            "protein": 24
+        },
+        {
+            "id": "2",
+            "name": "mleko 2%",
+            "amount": 100,
+            "amountType":"gram",
+            "carb": 4.8,
+            "fat": 2,
+            "kcal": 50,
+            "protein": 3.2
+        },
+        {
+            "id": "3",
+            "name": "płatki owsiane",
+            "amount": 100,
+            "amountType":"gram",
+            "carb": 54,
+            "fat": 7,
+            "kcal": 360,
+            "protein": 14
+        },
+        {
+            "id": "4",
+            "name": "ryż",
+            "amount": 100,
+            "amountType":"gram",
+            "carb": 80,
+            "fat": 0.7,
+            "kcal": 360,
+            "protein": 8
+        },
+        {
+            "id": "5",
+            "name": "makaron durum",
+            "amount": 100,
+            "amountType":"gram",
+            "carb": 68,
+            "fat": 2.1,
+            "kcal": 355,
+            "protein": 13
+        },
+        {
+            "id": "6",
+            "name": "napój sojowy wanil.",
+            "amount": 100,
+            "amountType":"gram",
+            "carb": 5.3,
+            "fat": 1.8,
+            "kcal": 52,
+            "protein": 3.3
+        },
+        {
+            "id": "7",
+            "name": "mix warzyw b/k/m",
+            "amount": 100,
+            "amountType":"gram",
+            "carb": 3.3,
+            "fat": 0,
+            "kcal": 29,
+            "protein": 2.3
+        },
+        {
+            "id": "8",
+            "name": "pstrąg łososiowy",
+            "amount": 100,
+            "amountType":"gram",
+            "carb": 0,
+            "fat": 10,
+            "kcal": 162,
+            "protein": 18.1
+        },
+        {
+            "id": "9",
+            "name": "jajko",
+            "amount": 1,
+            "amountType":"szt",
+            "carb": 0,
+            "fat": 5,
+            "kcal": 75,
+            "protein": 6.5
+        },
+        {
+            "id": "10",
+            "name": "indyk polędwica",
+            "amount": 100,
+            "amountType":"gram",
+            "carb": 0,
+            "fat": 0.7,
+            "kcal": 84,
+            "protein": 19.2
+        },
+        {
+            "id": "11",
+            "name": "pierś z kurczaka",
+            "amount": 100,
+            "amountType":"gram",
+            "carb": 0,
+            "fat": 1.3,
+            "kcal": 98,
+            "protein": 21.5
+        },
+        {
+            "id": "12",
+            "name": "oliwa z oliwek",
+            "amount": 100,
+            "amountType":"gram",
+            "carb": 0,
+            "fat": 100,
+            "kcal": 900,
+            "protein": 0
+        },
+        {
+            "id": "13",
+            "name": "napój owsiany",
+            "amount": 100,
+            "amountType":"gram",
+            "carb": 7.8,
+            "fat": 0.8,
+            "kcal": 42,
+            "protein": 0.7
+        },
+        {
+            "id": "14",
+            "name": "napój sojowy",
+            "amount": 100,
+            "amountType":"gram",
+            "carb": 3.2,
+            "fat": 1.8,
+            "kcal": 44,
+            "protein": 3.3
+        },
+        {
+            "id": "15",
+            "name": "napój ryżowy",
+            "amount": 100,
+            "amountType":"gram",
+            "carb": 13.4,
+            "fat": 1,
+            "kcal": 65,
+            "protein": 0.3
+        },
+        {
+            "id": "16",
+            "name": "cukier",
+            "amount": 100,
+            "amountType":"gram",
+            "carb": 100,
+            "fat": 0,
+            "kcal": 400,
+            "protein": 0
+        },
+        {
+            "id": "17",
+            "name": "mieso z nogi kurczaka",
+            "amount": 100,
+            "amountType":"gram",
+            "carb": 0,
+            "fat": 8,
+            "kcal": 145,
+            "protein": 18
+        }
     ]
 }
