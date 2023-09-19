@@ -33,7 +33,7 @@ export const AddFoodForm: React.FC = () => {
 
   return (
     <Form onSubmit={handleAddFood}>
-      <InputGroup className="mb-3">
+      <InputGroup>
         <AmountInput value={amount} setValue={setAmount} />
         <AddFoodButton disabled={!amount || amount === 0} />
       </InputGroup>

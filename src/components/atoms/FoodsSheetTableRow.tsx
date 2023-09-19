@@ -13,10 +13,16 @@ export const FoodsSheetTableRow: React.FC<Props> = ({ food, index }) => {
   const { removeFood } = useGlobalState();
   return (
     <tr>
-      <td className="center">
-        <Button size="sm" onClick={() => removeFood(food.id)}>
-          <Trash />
-        </Button>
+      <td>
+        <div className="center">
+          <Button
+            size="sm"
+            variant="danger"
+            onClick={() => removeFood(food.id)}
+          >
+            <Trash size={16} />
+          </Button>
+        </div>
       </td>
       <td>{index}</td>
       <td style={{ textTransform: "capitalize" }}>{food.name}</td>

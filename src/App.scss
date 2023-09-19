@@ -4,12 +4,12 @@
 
 .app{
     background-color: antiquewhite;
-    width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .app-container{
-    padding-top: 100px;
+    padding-top: 60px;
+    max-width:1300px;
 }
 
 .center {
@@ -21,4 +21,18 @@
 
 th{
     text-transform: capitalize;
+}
+
+td,th{
+    vertical-align: middle;
+    text-align: center;
+}
+
+button.btn-sm{
+    width: 24px;
+    height: 24px;
+    padding: 4px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
 }
